@@ -11,15 +11,20 @@
 
 .swiper_banner {
   position: relative; }
-  .swiper_banner img {
+  .swiper_banner .img {
     width: 100%;
-    height: auto; }
+    height: 500px;
+    background-image: url("../img/banner.png");
+    background-position: center center;
+    background-size: cover; }
   .swiper_banner p {
+    width: 100%;
+    top: 100px;
+    left: 0;
+    padding: 20px;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     letter-spacing: 5px;
+    text-align: center;
     color: #fff;
     font-size: 30px;
     font-weight: 100;
@@ -74,21 +79,22 @@
   background-image: url("../img/advantages.png");
   background-position: center center;
   background-size: cover;
-  position: relative; }
-  .advantages img {
-    position: absolute;
-    right: 0;
-    height: 100%; }
+  position: relative;
+  overflow: hidden; }
   .advantages .container {
     position: relative;
     height: 100%; }
+    .advantages .container img {
+      position: absolute;
+      right: -200px;
+      height: 100%; }
     .advantages .container p {
       top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 80%;
+      left: 10%;
+      transform: translateY(-50%);
+      width: 70%;
       position: absolute;
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
       background: -webkit-linear-gradient(#f4f3f1, #c2c2c1);
       background: -o-linear-gradient(#f4f3f1, #c2c2c1);
@@ -97,7 +103,7 @@
       border-radius: 10px;
       color: #00549B;
       letter-spacing: 5px;
-      padding: 20px 35px 20px 40px; }
+      padding: 20px; }
 
 .footer {
   height: 95px;
@@ -109,13 +115,56 @@
     text-align: center;
     color: #fff;
     font-size: 14px;
-    line-height: 90px; }
+    padding: 30px 0; }
 
-@media (max-width: 460px) {
+@media (max-width: 991px) {
+  .cities {
+    padding: 5px 0 10px; }
+    .cities .col-6 {
+      padding: 0 5px; }
+      .cities .col-6 a .city {
+        margin-top: 5px;
+        font-size: 25px; }
+
+  .advantages {
+    height: 300px; }
+    .advantages .container img {
+      bottom: 0;
+      right: -70px;
+      height: 80%; }
+    .advantages .container p {
+      width: 60%;
+      font-size: 20px;
+      letter-spacing: 0; } }
+@media (max-width: 500px) {
   .col-6 {
     width: 50%; }
 
   .col-4 {
-    width: 33.33%; } }
+    width: 33.33%; }
+
+  .logo img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0; }
+
+  .swiper_banner .img {
+    height: 70vw; }
+  .swiper_banner p {
+    top: 50px;
+    padding: 0 50px;
+    font-size: 25px; }
+
+  .advantages {
+    height: 300px; }
+    .advantages .container p {
+      top: 10%;
+      transform: translateY(0);
+      width: 50%;
+      font-size: 16px; }
+
+  .footer p {
+    font-size: 10px;
+    word-wrap: break-word; } }
 
 /*# sourceMappingURL=main.css.map */
