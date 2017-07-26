@@ -1,0 +1,121 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//fonts.googleapis.com/earlyaccess/cwtexyen.css);
+.logo {
+  background: -webkit-linear-gradient(#f4f3f1, #c2c2c1);
+  background: -o-linear-gradient(#f4f3f1, #c2c2c1);
+  background: -moz-linear-gradient(#f4f3f1, #c2c2c1);
+  background: linear-gradient(#f4f3f1, #c2c2c1); }
+  .logo img {
+    height: 80px;
+    padding: 10px 40px; }
+
+.swiper_banner {
+  position: relative; }
+  .swiper_banner img {
+    width: 100%;
+    height: auto; }
+  .swiper_banner p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "cwTeXYen", sans-serif; }
+
+.cities {
+  background-image: url("../img/cities_bg.png");
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 0 25px; }
+  .cities a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: "cwTeXYen", sans-serif; }
+    .cities a:hover {
+      color: #fff; }
+    .cities a .city {
+      border: 1px solid transparent;
+      -moz-border-image: -moz-linear-gradient(top, #595959 0%, #2d2d2d 100%);
+      -webkit-border-image: -webkit-linear-gradient(top, #595959 0%, #2d2d2d 100%);
+      border-image: linear-gradient(to bottom, #595959 0%, #2d2d2d 100%);
+      border-image-slice: 1;
+      background-image: url("../img/city_bg.png");
+      background-position: center center;
+      background-size: cover;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 30px;
+      padding: 15px 0 15px 2px; }
+      .cities a .city:hover {
+        border: 1px solid #00A9FB; }
+
+.services {
+  background: -webkit-linear-gradient(#f4f3f1, #c2c2c1);
+  background: -o-linear-gradient(#f4f3f1, #c2c2c1);
+  background: -moz-linear-gradient(#f4f3f1, #c2c2c1);
+  background: linear-gradient(#f4f3f1, #c2c2c1); }
+  .services .services-container {
+    padding: 20px 0;
+    text-align: center; }
+    .services .services-container .service img {
+      width: 100%;
+      height: auto; }
+    .services .services-container .service p {
+      font-size: 18px;
+      font-family: "cwTeXYen", sans-serif; }
+
+.advantages {
+  height: 460px;
+  background-image: url("../img/advantages.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+  .advantages img {
+    position: absolute;
+    right: 0;
+    height: 100%; }
+  .advantages .container {
+    position: relative;
+    height: 100%; }
+    .advantages .container p {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      position: absolute;
+      font-size: 30px;
+      text-align: center;
+      background: -webkit-linear-gradient(#f4f3f1, #c2c2c1);
+      background: -o-linear-gradient(#f4f3f1, #c2c2c1);
+      background: -moz-linear-gradient(#f4f3f1, #c2c2c1);
+      background: linear-gradient(#f4f3f1, #c2c2c1);
+      border-radius: 10px;
+      color: #00549B;
+      letter-spacing: 5px;
+      padding: 20px 35px 20px 40px; }
+
+.footer {
+  height: 95px;
+  background: -webkit-linear-gradient(#0056A1, #003A6A);
+  background: -o-linear-gradient(#0056A1, #003A6A);
+  background: -moz-linear-gradient(#0056A1, #003A6A);
+  background: linear-gradient(#0056A1, #003A6A); }
+  .footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 90px; }
+
+@media (max-width: 460px) {
+  .col-6 {
+    width: 50%; }
+
+  .col-4 {
+    width: 33.33%; } }
+
+/*# sourceMappingURL=main.css.map */
