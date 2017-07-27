@@ -155,6 +155,11 @@
     padding: 0 50px;
     font-size: 25px; }
 
+  .services .services-container .service {
+    padding: 0; }
+    .services .services-container .service p {
+      font-size: 16px; }
+
   .advantages {
     height: 300px; }
     .advantages .container p {
