@@ -1,0 +1,35 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//fonts.googleapis.com/earlyaccess/cwtexyen.css);
+.countories {
+  background-image: url("../img/cities_bg.png");
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 0 25px; }
+  .countories a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: "cwTeXYen", sans-serif; }
+    .countories a:hover {
+      color: #fff; }
+    .countories a .country {
+      border: 1px solid transparent;
+      -moz-border-image: -moz-linear-gradient(top, #595959 0%, #2d2d2d 100%);
+      -webkit-border-image: -webkit-linear-gradient(top, #595959 0%, #2d2d2d 100%);
+      border-image: linear-gradient(to bottom, #595959 0%, #2d2d2d 100%);
+      border-image-slice: 1;
+      background-image: url("../img/city_bg.png");
+      background-position: center center;
+      background-size: cover;
+      text-align: center;
+      margin-top: 15px;
+      font-size: 30px;
+      padding: 15px 0 15px 2px; }
+      .countories a .country:hover {
+        border: 1px solid #00A9FB; }
+
+.countories .col-xs-3 {
+  width: 20%; }
+
+/*# sourceMappingURL=city.css.map */
