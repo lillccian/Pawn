@@ -190,6 +190,16 @@ $font_family : 'cwTeXYen', sans-serif;
 			font-size: 25px;
 		}
 	}
+	.services{
+		.services-container{
+			.service{
+				padding: 0;
+				p{
+					font-size: 16px;
+				}
+			}
+		}
+	}
 	.advantages{
 		height: 300px;
 		.container{
