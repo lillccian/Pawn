@@ -34,8 +34,24 @@ $font_family : 'cwTeXYen', sans-serif;
 		}
 	}
 }
-.countories{
-	.col-xs-3{
-		width: 20%;
+@media (max-width: 991px) {
+	.countories{
+		padding: 5px 0 10px;
+		.col-6{
+			padding: 0 5px; 		
+			a{
+				.country{
+					margin-top: 5px; 
+					font-size: 25px;
+				}
+			}	
+		}
+	}
+}
+@media (min-width: 501px) {
+	.countories{
+		.col-xs-3{
+			width: 20%;
+		}
 	}
 }

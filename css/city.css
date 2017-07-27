@@ -29,7 +29,16 @@
       .countories a .country:hover {
         border: 1px solid #00A9FB; }
 
-.countories .col-xs-3 {
-  width: 20%; }
+@media (max-width: 991px) {
+  .countories {
+    padding: 5px 0 10px; }
+    .countories .col-6 {
+      padding: 0 5px; }
+      .countories .col-6 a .country {
+        margin-top: 5px;
+        font-size: 25px; } }
+@media (min-width: 501px) {
+  .countories .col-xs-3 {
+    width: 20%; } }
 
 /*# sourceMappingURL=city.css.map */
