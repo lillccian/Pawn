@@ -1,5 +1,5 @@
 .pawn_shops{
-	padding: 40px 0;
+	padding: 20px 0;
 	.pawn_shop{
 		border-radius: 10px;
 		overflow: hidden;
@@ -15,6 +15,7 @@
 			font-size: 20px;
 		}
 		.shop-line{
+			height: 28px;
 			font-size: 20px;
 		}
 		.shop-phone a{
@@ -30,6 +31,10 @@
 			h1{
 				font-size: 30px;
 			}
+		}
+		.col-12{
+			width: 100%;
+			padding: 10px;
 		}
 	} 
 }

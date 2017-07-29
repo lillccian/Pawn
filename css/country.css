@@ -1,5 +1,5 @@
 .pawn_shops {
-  padding: 40px 0; }
+  padding: 20px 0; }
   .pawn_shops .pawn_shop {
     border-radius: 10px;
     overflow: hidden;
@@ -12,6 +12,7 @@
     .pawn_shops .shop-info .shop-code {
       font-size: 20px; }
     .pawn_shops .shop-info .shop-line {
+      height: 28px;
       font-size: 20px; }
     .pawn_shops .shop-info .shop-phone a {
       font-size: 30px;
@@ -21,6 +22,9 @@
   .pawn_shops .col-xs-6 {
     padding: 0 10px; }
     .pawn_shops .col-xs-6 h1 {
-      font-size: 30px; } }
+      font-size: 30px; }
+  .pawn_shops .col-12 {
+    width: 100%;
+    padding: 10px; } }
 
 /*# sourceMappingURL=country.css.map */
