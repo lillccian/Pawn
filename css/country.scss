@@ -1,0 +1,35 @@
+.pawn_shops{
+	padding: 40px 0;
+	.pawn_shop{
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0px 10px 10px rgba(0,0,0,.1);
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.shop-info{
+		text-align: center;
+		.shop-code{
+			font-size: 20px;
+		}
+		.shop-line{
+			font-size: 20px;
+		}
+		.shop-phone a{
+			font-size: 30px;
+			text-decoration: none;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.pawn_shops{
+		.col-xs-6{
+			padding: 0 10px;
+			h1{
+				font-size: 30px;
+			}
+		}
+	} 
+}

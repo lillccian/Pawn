@@ -165,6 +165,18 @@ $font_family : 'cwTeXYen', sans-serif;
 		}
 	}
 }
+@media (max-width: 992px) and (min-width: 501px){
+	.services{
+		.services-container{
+			.service{
+				padding: 0 5px;
+				p{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
 @media (max-width: 500px) {
 	// index
 	.col-6{
