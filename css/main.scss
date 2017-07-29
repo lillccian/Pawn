@@ -18,22 +18,32 @@ $font_family : 'cwTeXYen', sans-serif;
 	.img{
 		width: 100%;
 		height: 500px;
-		background-image: url('../img/banner.png');
 		background-position: center center;
 		background-size: cover;		
 	}
+	.banner_1{
+		background-image: url('../img/banner_1.png');
+	}	
+	.banner_2{
+		background-image: url('../img/banner_2.jpg');
+	}	
+	.banner_3{
+		background-image: url('../img/banner_3.jpg');
+	}	
 	p{
 		width: 100%;
-		top: 100px;
+		top: 150px;
 		left: 0;
 		padding: 20px;
 		position: absolute;
 		letter-spacing: 5px;
 		text-align: center;
-		color: #fff;
 		font-size: 30px;
-		font-weight: 100;
 		font-family: $font_family;
+	}
+	.banner_word_1,.banner_word_3{
+		color: #fff;
+		text-shadow: 0 0 10px rgba(0,0,0,.4);
 	}
 }
 .cities{
@@ -138,6 +148,15 @@ $font_family : 'cwTeXYen', sans-serif;
 	}
 }
 @media (max-width: 991px) {
+	.swiper_banner{
+		.banner_2,.banner_3{
+			background-position: left center;
+		}
+		.banner_word_2{
+			color: #fff;
+			text-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+	}		
 	.cities{
 		padding: 5px 0 10px;
 		.col-6{
@@ -166,7 +185,15 @@ $font_family : 'cwTeXYen', sans-serif;
 		}
 	}
 }
-@media (max-width: 992px) and (min-width: 501px){
+@media (max-width: 991px) and (min-width: 501px){
+	.swiper_banner{
+		.img{
+			height: 50vw;
+		}
+		p{
+			top: 10vw;
+		}
+	}	
 	.services{
 		.services-container{
 			.service{
@@ -188,7 +215,8 @@ $font_family : 'cwTeXYen', sans-serif;
 @media (max-width: 500px) {
 	// index
 	.col-6{
-		width: 50%;
+		width: 49%;
+		display: inline-block;
 	}	
 	.col-4{
 		width: 33.33%;

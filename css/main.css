@@ -14,21 +14,27 @@
   .swiper_banner .img {
     width: 100%;
     height: 500px;
-    background-image: url("../img/banner.png");
     background-position: center center;
     background-size: cover; }
+  .swiper_banner .banner_1 {
+    background-image: url("../img/banner_1.png"); }
+  .swiper_banner .banner_2 {
+    background-image: url("../img/banner_2.jpg"); }
+  .swiper_banner .banner_3 {
+    background-image: url("../img/banner_3.jpg"); }
   .swiper_banner p {
     width: 100%;
-    top: 100px;
+    top: 150px;
     left: 0;
     padding: 20px;
     position: absolute;
     letter-spacing: 5px;
     text-align: center;
-    color: #fff;
     font-size: 30px;
-    font-weight: 100;
     font-family: "cwTeXYen", sans-serif; }
+  .swiper_banner .banner_word_1, .swiper_banner .banner_word_3 {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
 
 .cities {
   background-image: url("../img/cities_bg.png");
@@ -119,6 +125,12 @@
     padding: 30px 0; }
 
 @media (max-width: 991px) {
+  .swiper_banner .banner_2, .swiper_banner .banner_3 {
+    background-position: left center; }
+  .swiper_banner .banner_word_2 {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+
   .cities {
     padding: 5px 0 10px; }
     .cities .col-6 {
@@ -137,7 +149,12 @@
       width: 60%;
       font-size: 20px;
       letter-spacing: 0; } }
-@media (max-width: 992px) and (min-width: 501px) {
+@media (max-width: 991px) and (min-width: 501px) {
+  .swiper_banner .img {
+    height: 50vw; }
+  .swiper_banner p {
+    top: 10vw; }
+
   .services .services-container .service {
     padding: 0 5px; }
     .services .services-container .service p {
@@ -149,7 +166,8 @@
     display: inline-block; } }
 @media (max-width: 500px) {
   .col-6 {
-    width: 50%; }
+    width: 49%;
+    display: inline-block; }
 
   .col-4 {
     width: 33.33%; }
