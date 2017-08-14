@@ -1,21 +1,21 @@
-.pawn_shops {
+.pawn_shops, .pawn_shops_2 {
   padding: 20px 0 10px; }
-  .pawn_shops .pawn_shop {
+  .pawn_shops .pawn_shop, .pawn_shops_2 .pawn_shop {
     margin-bottom: 10px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); }
-  .pawn_shops img {
+  .pawn_shops img, .pawn_shops_2 img {
     width: 100%;
     height: auto; }
-  .pawn_shops .shop-info {
+  .pawn_shops .shop-info, .pawn_shops_2 .shop-info {
     text-align: center; }
-    .pawn_shops .shop-info .shop-code {
+    .pawn_shops .shop-info .shop-code, .pawn_shops_2 .shop-info .shop-code {
       font-size: 20px; }
-    .pawn_shops .shop-info .shop-line {
+    .pawn_shops .shop-info .shop-line, .pawn_shops_2 .shop-info .shop-line {
       height: 28px;
       font-size: 20px; }
-    .pawn_shops .shop-info .shop-phone a {
+    .pawn_shops .shop-info .shop-phone a, .pawn_shops_2 .shop-info .shop-phone a {
       font-size: 30px;
       text-decoration: none; }
 
@@ -36,6 +36,19 @@
     height: 20px;
     font-size: 18px; }
   .pawn_shops .shop-info .shop-phone a {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .pawn_shops_2 .col-xs-6 {
+    width: 100%;
+    padding: 0 20px 5px; }
+    .pawn_shops_2 .col-xs-6 h1 {
+      margin: 10px 0;
+      font-size: 30px; }
+  .pawn_shops_2 .shop-info .shop-code, .pawn_shops_2 .shop-info .shop-address {
+    padding: 0 5px;
+    font-size: 18px; }
+  .pawn_shops_2 .shop-info .shop-line {
+    height: 20px;
+    font-size: 18px; } }
 
 /*# sourceMappingURL=country.css.map */

@@ -1,4 +1,4 @@
-.pawn_shops{
+.pawn_shops, .pawn_shops_2{
 	padding: 20px 0 10px;
 	.pawn_shop{
 		margin-bottom: 10px;
@@ -54,4 +54,25 @@
 			}
 		}
 	} 
+	// 以下是只有一排個的
+	.pawn_shops_2{
+		.col-xs-6{
+			width: 100%;
+			padding: 0 20px 5px;
+			h1{
+				margin: 10px 0;
+				font-size: 30px;
+			}
+		}
+		.shop-info{
+			.shop-code,.shop-address{
+				padding: 0 5px;
+				font-size: 18px;
+			}		
+			.shop-line{
+				height: 20px;
+				font-size: 18px;
+			}		
+		}
+	} 	
 }
