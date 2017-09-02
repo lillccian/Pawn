@@ -19,7 +19,7 @@
   .swiper_banner .banner_1 {
     background-image: url("../img/banner_1.png"); }
   .swiper_banner .banner_2 {
-    background-image: url("../img/banner_2.jpg"); }
+    background-image: url("../img/banner_2.png"); }
   .swiper_banner .banner_3 {
     background-image: url("../img/banner_3.jpg"); }
   .swiper_banner p {
@@ -35,6 +35,8 @@
   .swiper_banner .banner_word_1, .swiper_banner .banner_word_3 {
     color: #fff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  .swiper_banner .banner_word_3 {
+    color: #0008a3; }
 
 .cities {
   background-image: url("../img/cities_bg.png");
@@ -125,11 +127,8 @@
     padding: 30px 0; }
 
 @media (max-width: 991px) {
-  .swiper_banner .banner_2, .swiper_banner .banner_3 {
+  .swiper_banner .banner_3 {
     background-position: left center; }
-  .swiper_banner .banner_word_2 {
-    color: #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
 
   .cities {
     padding: 5px 0 10px; }

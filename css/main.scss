@@ -25,7 +25,7 @@ $font_family : 'cwTeXYen', sans-serif;
 		background-image: url('../img/banner_1.png');
 	}	
 	.banner_2{
-		background-image: url('../img/banner_2.jpg');
+		background-image: url('../img/banner_2.png');
 	}	
 	.banner_3{
 		background-image: url('../img/banner_3.jpg');
@@ -44,6 +44,9 @@ $font_family : 'cwTeXYen', sans-serif;
 	.banner_word_1,.banner_word_3{
 		color: #fff;
 		text-shadow: 0 0 10px rgba(0,0,0,.4);
+	}
+	.banner_word_3{
+		color: #0008a3;
 	}
 }
 .cities{
@@ -149,12 +152,8 @@ $font_family : 'cwTeXYen', sans-serif;
 }
 @media (max-width: 991px) {
 	.swiper_banner{
-		.banner_2,.banner_3{
+		.banner_3{
 			background-position: left center;
-		}
-		.banner_word_2{
-			color: #fff;
-			text-shadow: 0 0 10px rgba(0,0,0,.4);
 		}
 	}		
 	.cities{
